@@ -1,3 +1,7 @@
+## Info
+
+Tested on the [Sparkfun ESP Thing Plus][tp]
+
 ## Usage
 
 * make a copy of `connection.example.h` and name it `connection.h`
@@ -8,6 +12,9 @@
     the Spacebrew server you are targetting
   - `websocket_server_port` is set to the default Spacebrew port number,
     so in most instances you won't need to change this number
+* Install the following Arduino libraries
+  - ArduinoWebsockets
+  - Arduino_JSON
 * Upload to your microcontroller
 * Open the [web-chat][wc] example for testing
   - you may need to change the server address/IP after `server=` in the
@@ -24,3 +31,4 @@
 
 [wa]: http://spacebrew.github.io/spacebrew/admin/admin.html?server=localhost
 [wc]: http://www.quinkennedy.com/spacebrew-stuff/web-chat/index.html?server=localhost
+[tp]: https://www.sparkfun.com/products/15663
